@@ -2,30 +2,35 @@
   box-sizing: border-box;
 }
 header{
-  /* Add height and width here */
+  height: 200px;
   background-color: lightcyan;
   text-align: center;
 }
 
 .middle-section{
-  /* Add height and width here */
-  background-color: lightpink;
-  /* Add flex properties here */
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 aside{
-  /* Add height and width here */
+  width: 7000px;
+  height: 400px;
   background-color: lightseagreen;
 }
 
 .image-section{
-  /* Add height and width here */
+  width: 10000px;
+  height: 400px;
   background-color: aliceblue;
-  /* Add flex properties here */
-  text-align: left;
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 footer{
-  /* Add height and width here */
+  height: 100px;
   background-color: lime;
 }
